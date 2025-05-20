@@ -1,0 +1,36 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Cloud Gateway Ultra
+slug: ubiquiti-unifi-cloud-gateway-ultra
+part_number: UCG-Ultra
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 0
+weight_unit: kg
+comments: >
+  Compact multi-WAN cloud gateway with 2.5GbE WAN, 4x GbE LAN, 1 Gbps IDS/IPS throughput,
+  and integrated UniFi Network controller. Supports up to 30+ UniFi devices and 300+ clients.
+  Includes a 0.96" LCM display and USB-C power input.
+  [Tech Specs](https://techspecs.ui.com/unifi/unifi-cloud-gateways/ucg-ultra)
+
+power-ports:
+  - name: USB-C Power
+    type: usb-c
+    maximum_draw: 6.2
+
+console-ports:
+  - name: Bluetooth
+    type: other
+
+interfaces:
+  - name: WAN
+    type: 2gbase-t
+  - name: LAN1
+    type: 1000base-t
+  - name: LAN2
+    type: 1000base-t
+  - name: LAN3
+    type: 1000base-t
+  - name: LAN4
+    type: 1000base-t
